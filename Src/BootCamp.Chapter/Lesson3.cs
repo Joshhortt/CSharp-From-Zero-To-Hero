@@ -18,12 +18,10 @@ namespace BootCamp.Chapter
             float heightM = ConvertToMeters(height);
             float yourBMI = CalculateBMI(heightM, weight);
 
-            Console.Write("\n");
-            Console.WriteLine($"{name} {surName} you are {age} years old, your weight is {weight} Kg and your height is {height} cm\n");
+            Console.WriteLine($"\n{name} {surName} you are {age} years old, your weight is {weight} Kg and your height is {height} cm\n");
 
             Console.WriteLine("Your Body Mass Index (BMI) is: " + yourBMI);
-            Console.Write("\n");
-        }
+       }
 
         public static string PromptString(string message)
         {
